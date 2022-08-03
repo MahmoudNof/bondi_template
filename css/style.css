@@ -31,6 +31,26 @@ a {
 ul {
     list-style-type: none;
 }
+
+ /* Small devices */
+@media (max-width: 767px) {
+
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
 /* End Global Css */
 
 /* Start Header css */
@@ -175,10 +195,10 @@ section.make .container .header,
     padding-top: 1.8rem;
 }
 
-section.good_at .container .header i,
-section.make .container .header i,
-.about_us .header i,
-.reed_our_blog .header i {
+section.good_at .container .header svg,
+section.make .container .header svg,
+.about_us .header svg,
+.reed_our_blog .header svg {
     font-size: 58px;
     color: var(--two-color);
     margin-bottom: 1.25rem;
@@ -813,37 +833,38 @@ ul li,
     color: #ffffff;
     text-align: center;
     min-width: 16rem;
+    transition: 0.35 all ease-in-out;
 }
 
 .footer .container .contact_us a:hover {
     color: var(--two-color);
 }
 
-.social_icon {
+.footer .container .contact_us .social_icon {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
 }
 
-ul.social_icon li {
+.footer .container .contact_us ul.social_icon li {
     font-size: 1.5rem;
     margin: 1rem 0.25rem 0rem;
 }
 
-ul.social_icon li:nth-child(1) i {
+ul.social_icon li:nth-child(1) svg {
     color: #347cd2;
     margin-left: 0;
 }
 
-ul.social_icon li:nth-child(2) i {
+ul.social_icon li:nth-child(2) svg {
     color: #1ec4ff;
 }
 
-ul.social_icon li:nth-child(3) i {
+ul.social_icon li:nth-child(3) svg {
     color: #ff4638;
 }
 
-ul.social_icon li:nth-child(4) i {
+ul.social_icon li:nth-child(4) svg {
     color: #ff3298;
 }
 
